@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="cl.talentodigital.proyectomakeapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="cl.talentodigital.proyectomakeapp.ui.maquillaje.MaquillajeFragment"
+        android:label="@string/menu_maquillaje"
+        tools:layout="@layout/fragment_maquillaje" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="cl.talentodigital.proyectomakeapp.ui.skincare.SkinCareFragment"
+        android:label="@string/menu_skin"
+        tools:layout="@layout/fragment_skincare" />
+
+    <fragment
+        android:id="@+id/nav_acc"
+        android:name="cl.talentodigital.proyectomakeapp.ui.accesorios.AccesoriosFragment"
+        android:label="@string/menu_acc"
+        tools:layout="@layout/fragment_accesorios" />
+
+    <fragment
+        android:id="@+id/nav_tuto"
+        android:name="cl.talentodigital.proyectomakeapp.ui.tutoriales.TutorialesFragment"
+        android:label="@string/menu_tutoriales"
+        tools:layout="@layout/fragment_tutoriales" />
+
+    <fragment
+        android:id="@+id/nav_cabello"
+        android:name="cl.talentodigital.proyectomakeapp.ui.cabello.CabelloFragment"
+        android:label="@string/menu_hair"
+        tools:layout="@layout/fragment_cabello" />
+
+    <fragment
+        android:id="@+id/nav_blog"
+        android:name="cl.talentodigital.proyectomakeapp.ui.blog.BlogFragment"
+        android:label="@string/menu_blog"
+        tools:layout="@layout/fragment_blog" />
+
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="cl.talentodigital.proyectomakeapp.ui.favoritos.FavoritosFragment"
+        android:label="@string/menu_fav"
+        tools:layout="@layout/fragment_favoritos" />
+
+    <fragment
+        android:id="@+id/nav_acerca"
+        android:name="cl.talentodigital.proyectomakeapp.ui.acercade.AcercaFragment"
+        android:label="@string/menu_acerca"
+        tools:layout="@layout/fragment_acerca" />
+</navigation>

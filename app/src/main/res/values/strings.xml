@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MakeAPP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MAKEAPP</string>
+    <string name="nav_header_subtitle">Tú Aplicación de Belleza</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_maquillaje" translatable="false">Maquillaje</string>
+    <string name="menu_skin" translatable="false">SkinCare</string>
+    <string name="menu_acc" translatable="false">Accesorios</string>
+    <string name="menu_tutoriales">Tutoriales</string>
+    <string name="menu_hair">Cabello</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_fav">Tus Favoritos</string>
+    <string name="menu_acerca">Acerca de</string>
+
+
+    <string name="titulo_paleta">¡Las Mejores Paletas del 2020!</string>
+    <string name="descripcion_paleta">Encuentra aqui las paletas más vendidas del año y donde poder comprarlas.</string>
+
+</resources>
